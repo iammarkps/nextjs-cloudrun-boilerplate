@@ -13,6 +13,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "make deploy"
+    "deploy": "make deploy",
+    "tsc": "typescript"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
   }
 }
