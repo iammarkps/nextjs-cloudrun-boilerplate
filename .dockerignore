@@ -1,0 +1,7 @@
+/*
+!/Dockerfile
+!/package.json
+!/yarn.lock
+!/.next
+!/static
+!/server.js
