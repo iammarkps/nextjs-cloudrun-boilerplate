@@ -1,14 +1,9 @@
 HASH := `git rev-parse --short HEAD`
 
 SERVICE := next
-PROJECT := triamudomcomputerclub
+PROJECT := triamudomcmc
 
 IMAGE := gcr.io/$(PROJECT)/$(SERVICE):$(HASH)
-
-next:
-	@echo "\n~> building NextJS app"
-	@yarn build
-
 
 docker:
 	@echo "\n~> building docker image"
