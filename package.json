@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "build:cloud": "make docker",
     "start": "next start",
     "deploy": "make deploy",
     "tsc": "typescript"
